@@ -1,0 +1,187 @@
+/* ==================
+google font
+===================== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+
+
+/* ==================
+Basic-Setup
+===================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ==================
+Start nav-bar section
+===================== */
+header {
+    background-color: #2D25A0;
+    margin-bottom: 30px;
+
+}
+.top-container {
+    width: 1160px;
+    margin: 0 auto;
+}
+.nav-bar {
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.left-area ul  {
+    display: flex;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.left-area ul li {
+    margin-right: 30px;
+}
+
+.left-area ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    padding: 5px;
+    transition: .5s;
+   
+}
+.left-area ul li a:hover {
+    background-color: #E02C6D;
+  
+}
+
+.right-area {
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background-color: #E02C6D;
+    border:none;
+    padding: 5px 30px;
+    font-size: 18px;
+    color:aliceblue;
+    border-radius: 2px;
+
+}
+.right-area .fas {
+    margin-right: 10px;
+}
+
+/* ==================
+end nav-bar section
+===================== */
+
+
+
+/* ==================
+Start top-banner-section
+===================== */
+.top-banner-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.banner-header .fas {
+    margin-left: 8px;
+}
+
+.banner-header h1 {
+     font-size: 55px;
+     color: white;
+     text-transform: capitalize;
+}
+
+.banner-image img {
+     width: 556.01px;
+     height: 438px;
+    
+}
+header:hover .banner-image  img {
+    transform:rotate(20deg) ;
+    transition: rotate, 1s;
+
+}
+/* ==================
+end top-banner-section
+===================== */
+
+
+
+
+/* ==================
+Start plyers section
+===================== */
+ .container {
+     padding-top: 30px;
+     width: 1080px;
+     margin: 0 auto;
+ }
+
+ .players {
+     display: grid;
+     grid-template-columns: repeat(3 , 1fr);
+     grid-column-gap: 15px;
+     
+ }
+
+ .player {
+     box-shadow: 2px 2px 4px rgb(233, 230, 230);
+     width: 320px;
+     height: 474px;
+     margin: 0 auto;
+     background-color: rgb(236, 234, 234);
+     padding-left: 23px;
+ }
+
+ .player img {
+    width: 300px;
+    height: 256px;
+    margin-top: 20px;
+   
+ }
+
+ .player h3 {
+     font-size: 28px;
+     font-weight: 700;
+     padding: 0;
+     margin: 0;
+     margin-top : 15px;
+     text-transform: capitalize;
+     
+        
+ }
+ .player p {
+     margin: 0;
+     margin-top: 10px;
+     width: 280px;
+     font-size: 16px;
+     text-align: start;
+     color:rgb(87, 76, 76)
+ }
+
+ 
+
+
+/* ==================
+Start Header section
+===================== */
+
