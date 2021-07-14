@@ -1,14 +1,4 @@
 
-/*-------max-width: 1200px-------
------------------------------- */
-@media screen and (min-width: 1200px){
-    body {
-        width: 1180px;
-        margin: 0 auto;
-    }
-
-   
-}
 
 /*-------max-width: 980px-------
 ------------------------------ */
@@ -181,6 +171,28 @@
     .highlights-heading p {
         width: 100%;
     }
+
+/* ==================
+  extra-section
+  ---------------
+ start popular section
+===================== */
+
+.popular-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
 /* =======footer-section========= */
 
 .footer-logo img {
@@ -194,5 +206,8 @@
         height: auto;
      }
     
+     .footer-area {
+         margin-top: 40px;
+     }
 
 }
