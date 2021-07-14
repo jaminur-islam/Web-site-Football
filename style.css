@@ -280,14 +280,133 @@ end-highlights-section
     font-weight: 700;
 }
 
-
-
-
- 
-     
-
-
 /* ==================
 end footer section
 ===================== */
 
+
+
+ /* =====================
+ --------------------------
+   Media Query
+ --------------------------
+ ======================== */
+
+@media screen and (max-width: 668px){
+
+
+    /*========== nav-bar========= */
+
+    .top-container {
+        width:100%;
+     
+    }
+     
+    .nav-bar {
+  
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        
+        
+    }
+
+    .left-area ul  {
+        display: flex;
+    }
+
+    
+.left-area ul li {
+    margin-right: 0;
+}
+
+.left-area ul li a:hover {
+    color: white;
+  
+}
+
+.left-area ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+   
+}
+    
+
+
+/* ========banner-sectin========= */
+
+    .top-banner-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    } 
+    .banner-image img {
+        width: 300px;
+        height: 250px;
+    }  
+
+    
+   
+    .banner-header h1 {
+        margin: 0;
+        padding:0;
+        font-size: 35px;
+    }
+
+    .btn {
+        margin-bottom: 30px;
+    }
+
+ /* ============player section ========*/
+
+    .container {
+        padding-top: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 15px;
+        
+    }
+
+/* =======highlights-section========= */
+
+    .highlights-section{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .highlights-video img  {
+       margin-top: 20px;
+       width: 300px;
+       height: auto;
+    }
+
+
+/* =======footer-section========= */
+
+
+    .footer-logo img {
+        width: 300px;
+        height: 80px;
+     }
+    
+    
+    .footer-area {
+        margin-top: 50px;
+         text-align: start;
+     }
+    
+     .social-link ul {
+         justify-content: start;
+     }
+}
