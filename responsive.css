@@ -1,0 +1,198 @@
+
+/*-------max-width: 1200px-------
+------------------------------ */
+@media screen and (min-width: 1200px){
+    body {
+        width: 1180px;
+        margin: 0 auto;
+    }
+
+   
+}
+
+/*-------max-width: 980px-------
+------------------------------ */
+@media screen and (max-width: 980px){
+
+    .top-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container {
+     padding-top: 30px;
+     width: 100%;
+     margin: 0 auto;
+ }
+
+ .btn {
+     margin-bottom: 20px;
+ }
+
+ .player img {
+    width: 300px;
+    height: 256px;
+    margin-top: 20px;
+   
+ }
+ 
+ .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 15px;
+    
+}
+
+.highlights-section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+}
+
+
+
+
+/*-------max-width: 768px-------
+------------------------------ */
+@media screen and (max-width: 768px){
+    .banner-image img {
+        width: 300px;
+        height: 250px;
+       
+   }
+   .highlights-heading p {
+    width: 100%;
+    color:rgb(87, 76, 76)
+
+}
+
+  
+}
+
+
+
+
+
+
+/*-------max-width: 668px-------
+------------------------------ */
+@media screen and (max-width: 668px){
+/*========== nav-bar========= */
+  
+
+.top-container {
+    width:100%;
+     
+    }
+     
+.mobaile-menu {
+    display: block;
+    transition: display , .3s;
+       
+}
+
+.left-area ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+    display: none;
+}
+
+.player img {
+    width : 100%;
+    height: auto;
+    margin-top: 20px;
+ }
+
+ .player p {
+     width: 150px;
+ }
+
+
+
+
+/* ========banner-sectin========= */
+
+    .top-banner-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    } 
+    .banner-image img {
+        width: 100%;
+        height: auto;
+    }  
+
+    .banner-header h1 {
+        margin: 0;
+        padding:0;
+        font-size: 35px;
+    }
+
+    .btn {
+        margin-bottom: 30px;
+    }
+
+ /* ============player section ========*/
+
+    .container {
+        padding-top: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 15px;
+        
+    }
+
+    .player p {
+        width: 70%;
+    }
+
+/* =======highlights-section========= */
+
+    .highlights-section{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .highlights-video img  {
+       margin-top: 20px;
+       width: 100%;
+       height: auto;
+    }
+
+    .highlights-heading h3 {
+        font-size: 30px;
+    }
+
+    .highlights-heading p {
+        width: 100%;
+    }
+/* =======footer-section========= */
+
+.footer-logo img {
+    width: 200px;
+    height: 100px;
+ }
+
+       
+    .footer-logo .img {
+        width: 100%;
+        height: auto;
+     }
+    
+
+}
