@@ -1,5 +1,5 @@
 
-/*-------max-width: 768px-------
+/*-------max-width: 980px-------
 ------------------------------ */
  @media screen and (max-width: 980px){
 
@@ -58,9 +58,15 @@
     .top-container {
         width: 90%;
     }
-} 
+ 
+/* =======highlights-section========= */
 
-
+.highlights-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+}
+ }
 
 
 /*-------max-width: 668px-------
