@@ -155,7 +155,7 @@ Start plyers section
      width: 320px;
      height: 474px;
      margin: 0 auto;
-     background-color: rgb(247, 239, 239);
+     background-color: rgb(233, 233, 233);
      padding-left: 23px;
  }
 
@@ -280,6 +280,80 @@ end popular section
 ===================== */
 
 
+/* ==================
+  extra-section 2
+  ---------------
+start contact section
+===================== */
+.contact-section {
+    margin-top: 100px;
+    background-color: rgb(233, 233, 233);
+    padding-top: 5px;
+
+    
+}
+
+.contact-section h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+.contact-section form {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 15px;
+
+}
+
+form {
+    display: grid;
+    grid-row-gap: 20px;
+    cursor: pointer;
+}
+
+
+.input-area {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-column-gap: 40px;
+}
+
+ 
+
+.input-1 input,#mess {
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    color:rgb(1, 12, 5);
+    background-color:rgb(209, 181, 181);
+    border-color: white;
+ 
+}
+.input-1 input,#mess:focus{
+    outline: none;
+}
+
+.input-btn {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.input-btn .btn-1 {
+    background-color: rgb(231, 121, 121);
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(56, 50, 50);
+    border-radius: 8px;
+
+}
+
+/* ==================
+end contact section
+===================== */
+
+
 
 
 
@@ -290,7 +364,7 @@ end popular section
 ===================== */
 
  .footer-area {
-    margin-top: 150px;
+    margin-top: 80px;
      text-align: center;
  }
  .footer-logo img {
